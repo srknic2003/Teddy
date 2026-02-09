@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Teddy Day 🧸💖</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-decor">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="hearts-layer" id="hearts-layer"></div>
+
+    <header class="hero teddy-hero">
+      <div class="hero-content card glass">
+        <p class="hero-tag">Happy Teddy Day 🧸</p>
+        <h1 class="hero-title">You Are My Favorite Teddy</h1>
+        <p class="hero-subtitle">
+          If I could, I’d hug you right now. This little page is my soft teddy hug for you.
+        </p>
+
+        <div class="teddy-wrapper">
+          <div class="teddy" id="teddy">
+            <div class="teddy-ear ear-left"></div>
+            <div class="teddy-ear ear-right"></div>
+            <div class="teddy-head">
+              <div class="teddy-face">
+                <div class="teddy-eye eye-left"></div>
+                <div class="teddy-eye eye-right"></div>
+                <div class="teddy-nose"></div>
+                <div class="teddy-mouth"></div>
+              </div>
+            </div>
+            <div class="teddy-body">
+              <div class="teddy-heart"></div>
+              <div class="teddy-arm arm-left"></div>
+              <div class="teddy-arm arm-right"></div>
+              <div class="teddy-leg leg-left"></div>
+              <div class="teddy-leg leg-right"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons-row">
+          <button class="primary-btn" id="hug-btn">I wanna hug you 🤗</button>
+          <button class="secondary-btn" id="teddy-btn">
+            You are my teddy 🧸
+          </button>
+          <button class="love-btn" id="love-btn">I love you 🤍</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="teddy-main">
+      <section class="message-section">
+        <div class="message-card card glass">
+          <h2 class="section-title">A Warm Teddy Hug Just For You</h2>
+          <p class="section-subtitle">
+            Whenever you miss me, imagine this little teddy running straight into your arms, just to hold you tight.
+          </p>
+          <p class="main-text">
+            I may not always be there beside you, but I hope you always feel me close, quietly supporting you, caring for you, and surrounding you with all the warmth I have. You’re not just a teddy to me. You’re my teddy, my comfort, my safe place, my favorite cuddle, and my sweetest weakness.
+          </p>
+          <p class="main-text">
+            And whenever you feel a little low, remember this: somewhere, I’m holding my pillow close and pretending it’s you 🤍🧸
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Made with <span class="heart">❤</span> for my cutest teddy
+        <span>Sayanika 🤗💖</span>
+      </p>
+    </footer>
+
+    <!-- Modal for hug button -->
+    <div id="hug-modal" class="modal">
+      <div class="modal-content card glass">
+        <span class="close-btn" id="close-hug-modal">&times;</span>
+        <img src="pic1.jpg" alt="Hug Teddy" class="modal-image">
+        <p class="modal-text">Big hug for you! 🤗💖</p>
+      </div>
+    </div>
+
+    <!-- Modal for teddy button -->
+    <div id="teddy-modal" class="modal">
+      <div class="modal-content card glass">
+        <span class="close-btn" id="close-teddy-modal">&times;</span>
+        <img src="pic2.jpg" alt="My Teddy" class="modal-image">
+        <p class="modal-text">You are my favorite teddy! 🧸💕</p>
+      </div>
+    </div>
+
+    <!-- Modal for love message after 10 clicks -->
+    <div id="love-modal" class="modal">
+      <div class="modal-content card glass">
+        <span class="close-btn" id="close-love-modal">&times;</span>
+        <h2 class="love-title">💖 A Special Message Just For You 💖</h2>
+        <p class="love-message">
+          You caught me 😊
+After all the smiles and little moments, I just wanted to tell you something.
+
+Every moment with you feels special to me. The way you smile, the way you laugh, the way you’re just you—it makes everything around me feel lighter and happier. Being with you brings out the most playful, happiest side of me, and I love that I can be myself with you.
+
+Thank you for being you, Sayanika. Thank you for being my teddy—my comfort, my safe place, my favorite person. I love you more than I can put into words, and I’m truly grateful to have you in my life 🤍🧸<br><br>
+          <strong>You mean the world to me. 💕</strong>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
